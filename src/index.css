@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+.header {
+  color: white;
+  font-size: 100;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.count {
+  color: white;
+}
+
+.btncount {
+  margin-top: 20px;
+}
+
+.counter {
+  color: white;
+  margin-top: 10px;
+}
