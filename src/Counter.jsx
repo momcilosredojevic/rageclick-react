@@ -21,17 +21,19 @@ export function Counter() {
   }, [numOfSecondsLeft, timerActive]);
 
   return (
-    <center>
-      <div>
-        <h1 className="header">Rage Click Counter</h1>
-        <div className="count">
-          You clicked me {numOfClicks} times in 10 seconds!
-        </div>
+    <div className="container">
+      <h1 className="title">Rage Click Counter</h1>
+      <div className="count" id="item">
+        You clicked me {numOfClicks} times in 10 seconds!
+      </div>
+      <div id="item">
         <button className="btncount" onClick={handleClick}>
           Count
         </button>
-        <div className="counter">{numOfSecondsLeft}</div>
       </div>
-    </center>
+      <div className="seconds-left" id="item">
+        {numOfSecondsLeft}
+      </div>
+    </div>
   );
 }

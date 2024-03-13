@@ -2,11 +2,7 @@ import "./index.css";
 import { Counter } from "./Counter";
 
 function App() {
-  return (
-    <div className="container">
-      <Counter />
-    </div>
-  );
+  return <Counter />;
 }
 
 export default App;
