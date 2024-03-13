@@ -2,7 +2,13 @@ import "./index.css";
 import { Counter } from "./Counter";
 
 function App() {
-  return <div className="container">{<Counter maxRange={10} />}</div>;
+  return (
+    <div>
+      <div className="container">
+        <Counter />
+      </div>
+    </div>
+  );
 }
 
 export default App;
